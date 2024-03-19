@@ -10,9 +10,10 @@ public class LaunchBroedge {
 		
 		EdgeDriver driver = new EdgeDriver();
 		driver.get("https://www.w3schools.com/");
-		driver.findElement(By.id("search2")).sendKeys("HTML");
+		driver.findElement(By.id("search2")).sendKeys("Java");
 		driver.findElement(By.id("learntocode_searchbtn")).click();
 		Thread.sleep(3000);
+
 
 	}
 

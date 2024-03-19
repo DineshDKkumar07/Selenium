@@ -11,10 +11,11 @@ public class LaunchBrowser {
 		
 		ChromeDriver driver = new ChromeDriver();
 		
-		driver.get("https://www.google.com/");
+		driver.get("https://www.amazon.com/");
 		//driver.close();
 		String name= driver.getTitle();
 		System.out.println("tittle");
+		
 		
 		
 		
