@@ -51,8 +51,7 @@ public class Assignment_81 {
 
 		WebElement upload = driver.findElement(By.name("file"));
 		
-		upload.sendKeys(
-				"C:\\Users\\DINESHS\\OneDrive - Capgemini\\Pictures\\Assignments\\Assignment_AB39_Assignment4.jpg.png");
+		upload.sendKeys("C:\\Users\\DINESHS\\OneDrive - Capgemini\\Pictures\\Assignments\\Assignment_AB39_Assignment4.jpg.png");
 
 		driver.findElement(By.name("relocate")).click();
 

@@ -8,5 +8,9 @@ public class Toipcs {
 	//Locators
 	//FindElement
 	//Dropdown and three methods
-	//
+	//uplod file
+	//Auto suggestions
+	//JS popup-----p
+	//Three interface webelements----p
+	
 }
