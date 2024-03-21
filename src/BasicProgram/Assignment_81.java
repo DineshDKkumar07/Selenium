@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class Grotech {
+public class Assignment_81 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -50,8 +50,7 @@ public class Grotech {
 		dropdownvalues5.selectByIndex(2);
 
 		WebElement upload = driver.findElement(By.name("file"));
-		// upload.sendKeys("C:\\Users\\DINESHS\\OneDrive -
-		// Capgemini\\Pictures\\Assignments");
+		
 		upload.sendKeys(
 				"C:\\Users\\DINESHS\\OneDrive - Capgemini\\Pictures\\Assignments\\Assignment_AB39_Assignment4.jpg.png");
 

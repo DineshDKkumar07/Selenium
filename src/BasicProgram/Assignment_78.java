@@ -3,7 +3,7 @@ package BasicProgram;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Selenium1 {
+public class Assignment_78{
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub

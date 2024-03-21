@@ -19,7 +19,6 @@ public class Linked {
 		
 		
 		
-    //the amount of heat energy is absorbed or evolved when one amphere current flows for one second in two elements d
 	}
 
 }

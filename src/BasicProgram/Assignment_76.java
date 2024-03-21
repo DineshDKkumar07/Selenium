@@ -3,7 +3,7 @@ package BasicProgram;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
-public class LaunchBrowser {
+public class Assignment_76 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -11,8 +11,9 @@ public class LaunchBrowser {
 		
 		ChromeDriver driver = new ChromeDriver();
 		
-		driver.get("https://www.amazon.com/");
+		driver.get("https://www.flipkart.com/");
 		//driver.close();
+		driver.manage().window().maximize();
 		String name= driver.getTitle();
 		System.out.println("tittle");
 		
