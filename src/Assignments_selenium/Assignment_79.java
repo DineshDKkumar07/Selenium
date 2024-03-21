@@ -15,6 +15,9 @@ public class Assignment_79 {
 		Thread.sleep(8000);
 		driver.findElement(By.name("email")).sendKeys("dineshdkssm@gmail.com");
 		driver.findElement(By.id("continue")).click();
+		driver.findElement(By.id("ap_password")).sendKeys("Thalapathy");
+		driver.findElement(By.id("signInSubmit")).click();
+		
 		
 	}
 
