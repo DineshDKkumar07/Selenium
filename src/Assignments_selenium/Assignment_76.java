@@ -1,4 +1,4 @@
-package BasicProgram;
+package Assignments_selenium;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -17,8 +17,10 @@ public class Assignment_76 {
 		driver.manage().window().maximize();
 		String name= driver.getTitle();
 		System.out.println("tittle");
+
 		driver.get("https://www.amazon.com/");
 		driver.close();
+		
 
 		
 		
