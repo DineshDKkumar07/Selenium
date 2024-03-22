@@ -17,9 +17,7 @@ public class Assignment_98 {
 		driver.manage().window().maximize();
 		driver.findElement(By.name("q")).sendKeys("mobile");
 		Thread.sleep(2000); //mandatory
-	//	-----------
-
-		//	List<WebElement> dk=driver.findElements(By.xpath("(//div[@class='two-pane-results-container'])/div/div"));
+		
 		List<WebElement> action=driver.findElements(By.xpath("//ul[@class='_1sFryS _2x2Mmc _3ofZy1']/li"));
 		int count=action.size();
 		System.out.println(count);
