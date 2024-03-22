@@ -1,0 +1,31 @@
+package Assignments_selenium;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class Assignment_98 {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+        ChromeDriver driver = new ChromeDriver();
+		driver.get("https://www.flipkart.com/");
+		driver.manage().window().maximize();
+		driver.findElement(By.name("q")).sendKeys("mobile");
+		Thread.sleep(2000); //mandatory
+	//	-----------
+
+		//	List<WebElement> dk=driver.findElements(By.xpath("(//div[@class='two-pane-results-container'])/div/div"));
+		List<WebElement> action=driver.findElements(By.xpath("//ul[@class='_1sFryS _2x2Mmc _3ofZy1']/li"));
+		int count=action.size();
+		System.out.println(count);
+	    Thread.sleep(2000);
+	    action.get(2).click();
+		
+	}
+
+}
