@@ -11,6 +11,8 @@ public class Assignment_75 {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
+		
+	
 	}
 
 }
