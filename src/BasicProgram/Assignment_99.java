@@ -1,4 +1,4 @@
-package Assignments_selenium;
+package BasicProgram;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
-public class Assignment_98 {
+public class Assignment_99 {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
@@ -16,13 +16,13 @@ public class Assignment_98 {
 		driver.get("https://www.flipkart.com/");
 		driver.manage().window().maximize();
 		driver.findElement(By.name("q")).sendKeys("mobile");
-		Thread.sleep(2000); //mandatory
-		
-		List<WebElement> action=driver.findElements(By.xpath("//ul[@class='_1sFryS _2x2Mmc _3ofZy1']/li"));
+		//Thread.sleep(2000);
+	//	-----------
+
+		List<WebElement> action=driver.findElements(By.xpath("(//ul[@class='_1sFryS _2x2Mmc _3ofZy1'])/li/div"));
 		int count=action.size();
 		System.out.println(count);
-	    Thread.sleep(2000);
-	    action.get(2).click();
+	    action.get(4).click();
 		
 	}
 
