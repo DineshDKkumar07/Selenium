@@ -51,6 +51,7 @@ public class Assignment_92{
 		Select dropdownvalues5 = new Select(dropfind);
 		dropdownvalues5.selectByIndex(2);
 
+		
 		WebElement upload = driver.findElement(By.name("file"));
 		
 		upload.sendKeys("C:\\Users\\DINESHS\\OneDrive - Capgemini\\Pictures\\Assignments\\Assignment_AB39_Assignment4.jpg.png");
@@ -58,6 +59,8 @@ public class Assignment_92{
 		driver.findElement(By.name("relocate")).click();
 
 		driver.findElement(By.xpath("(//button[@class='btn btn-primary'])")).click();
+		
+		
 
 	}
 

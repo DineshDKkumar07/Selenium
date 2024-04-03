@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.io.FileHandler;
 
-public class Assignment_101 {
+public class Assignment_124 {
 
 	public static void main(String[] args) throws IOException {
 	
@@ -30,6 +30,13 @@ public class Assignment_101 {
 		WebElement sign=driver.findElement(By.xpath("//span[.='Sign in']"));
 		sign.click();
 		
+		//taking screenshot
+		
+		 TakesScreenshot tc= driver;
+		 File source= tc.getScreenshotAs(OutputType.FILE);
+		 File destination = new File("C:\\Users\\DINESHS\\eclipse-workspace\\SeleniumDK\\Screenshots\\one.jpeg");
+		 FileHandler.copy(source, destination);
+
 	}
 
 }
