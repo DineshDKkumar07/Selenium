@@ -3,6 +3,7 @@ package Assignments_selenium;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -20,11 +21,12 @@ public class Assignment_116 {
 		WebElement search=driver.findElement(By.name("q"));
 		
 		
-		WebDriverWait w1 = new WebDriverWait(driver, Duration.ofSeconds(3));//Explicit should be written as condition
-		w1.until(ExpectedConditions.titleIs("Google"));
+		WebDriverWait w1 = new WebDriverWait(driver, Duration.ofSeconds(4));//Explicit should be written as condition
+		w1.until(ExpectedConditions.titleContains("Goo"));
 		
 		search.sendKeys("India");
-		driver.findElement(By.name("btnK")).click();
+		WebElement cli=driver.findElement(By.xpath("(//input[@value='Google Search'])[2]"));
+		cli.click();
 
 	}
 
