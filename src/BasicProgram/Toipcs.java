@@ -10,12 +10,13 @@ public class Toipcs {
 	//Dropdown and three methods
 	//uplod file
 	//Auto suggestions
-	//Action class four methods hoverover,drag and drop,doubleclick,rightclick
+	//mouse-operations-Action class four methods hoverover,drag and drop,doubleclick,rightclick
 	//JS popup
 	//Three interface webelements----p
 	//Waits
 	//drop down count all 
 	//screenshot
 	//GWH,GWH's and changing control
+	//Keyboard operations
 	//
 }

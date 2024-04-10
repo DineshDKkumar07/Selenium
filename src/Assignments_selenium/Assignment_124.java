@@ -34,9 +34,8 @@ public class Assignment_124 {
 		
 		 TakesScreenshot tc= driver;
 		 File source= tc.getScreenshotAs(OutputType.FILE);
-		 File destination = new File("C:\\Users\\DINESHS\\eclipse-workspace\\SeleniumDK\\Screenshots\\one.jpeg");
+		 File destination = new File("C:\\Users\\DINESHS\\eclipse-workspace\\SeleniumDK\\Screenshots\\two.jpeg");
 		 FileHandler.copy(source, destination);
-
 	}
 
 }
